@@ -1,11 +1,13 @@
-<style> @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap'); </style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+</style>
 
 body {
   margin: 0;
 }
 
 p {
-  font-family: Allura;
+  font-family:"Pangolin";
   font-size: 26px;
   padding: 5px;
 }
@@ -14,7 +16,7 @@ p {
   --gap: 16px;
   --num-cols: 6;
   --row-height: 300px;
-  --page-width: 70%
+  --page-width: 50%
 }
 
 .card {
@@ -22,7 +24,6 @@ p {
   margin: auto;
   font-size: 18px;
   margin-top: 100px;
-
   background-color:bisque;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -86,8 +87,4 @@ p {
 
 #trigger {
   display:none;
-}
-
-.label {
-  margin: auto;
 }
